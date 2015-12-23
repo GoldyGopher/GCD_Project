@@ -1,0 +1,48 @@
+The tidy data set is summarized by Activity and Subject.  Note - Did not group by "Test" vs "Train"
+
+There are 6 levels of Activity Label:
+STATIC - LAYING
+STATIC - SITTING
+STATIC - STANDING
+WALKING - DOWNSTAIRS
+WALKING - LEVEL
+WALKING - UPSTAIRS
+
+There are 30 different subjects that participated in the experiment:
+
+1:30
+
+The mean and STD of mulitple parameters are summarized and included in the tidy data set.  79 variables are summarized.
+
+These variables are
+
+tBodyAcc-XYZ
+tGravityAcc-XYZ
+tBodyAccJerk-XYZ
+tBodyGyro-XYZ
+tBodyGyroJerk-XYZ
+tBodyAccMag
+tGravityAccMag
+tBodyAccJerkMag
+tBodyGyroMag
+tBodyGyroJerkMag
+fBodyAcc-XYZ
+fBodyAccJerk-XYZ
+fBodyGyro-XYZ
+fBodyAccMag
+fBodyAccJerkMag
+fBodyGyroMag
+fBodyGyroJerkMag
+
+Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
+
+gravityMean
+tBodyAccMean
+tBodyAccJerkMean
+tBodyGyroMean
+tBodyGyroJerkMean
+
+
+In all cases, any mean, STD or mean freq are collected to total 79 columns of data.
+
+Sorry, but I have no clue what the units are for each measurement.
